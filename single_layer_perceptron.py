@@ -60,7 +60,7 @@ def Train1(input1,temp_weight,desired_out,epoch):
 input1=[[1,0,0],[1,0,1],[1,1,0],[1,1,1]]
 desired_out=[0,0,0,1]
 weight=[0,0,0]
-print("weight(n+1)   input  desired_out  actual_out  del_weight  weight(n+1)")
+print("weight(n)   input  desired_out  actual_out  del_weight  weight(n+1)")
 Train1(input1,weight,desired_out,0)
 
     
